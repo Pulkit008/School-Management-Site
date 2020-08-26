@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  background: url(../img/l.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    background-image: linear-gradient(-20deg, #ff512f 0%, #f09819 100%);
+}
+
+footer {
+    background-image: linear-gradient(-20deg, #ff512f 0%, #f09819 100%);
+}
+
+.card {
+    opacity: 0.9;
+}
+
+.input-field .prefix.active {
+    color: #f09819 !important;
+}
+
+.input-field label {
+    color: #f09819 !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #f09819 !important;
+    box-shadow: 0 1px 0 0 #f09819 !important;
+}
+
+.msg {
+    text-align: center;
+    color: red;
+    visibility: hidden;
+}
+.card{
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+.row{
+    margin-bottom: 0px;
+}
